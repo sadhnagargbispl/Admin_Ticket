@@ -55,9 +55,9 @@
 
                                                 <p><%#Eval("Name")%></p>
                                             </div>
-                                            <div class="icon">
+                                         <%--   <div class="icon">
                                                 <i class="ion ion-person-add"></i>
-                                            </div>
+                                            </div>--%>
                                             <%#Eval("Icon")%>
                                             <%--<a href="MemberProfile.aspx" class="small-box-footer">More Info...</a>--%>
                                             <%-- <a href="MemberProfile.aspx?typeforreportshow=J" style="color:Blue; margin-left :100px;"> More Info...</a>--%>

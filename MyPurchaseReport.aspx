@@ -21,15 +21,15 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         Status:
-                                        <asp:DropDownList ID="DDLStackType" runat="server" class="form-control"
-                                            >
+                                        <asp:DropDownList ID="DDLStackType" runat="server" class="form-control">
                                         </asp:DropDownList>
+                                         </div>
                                         <div class="col-md-4">
                                             <br />
                                             <asp:Button ID="BtnShow" runat="server" class="btn btn-primary" Text="Show Detail" OnClick="BtnShow_Click" />
                                             <asp:Button ID="btnExport" runat="server" class="btn btn-primary"
                                                 Text="Export To Excel" OnClick="btnExport_Click  " />
-                                        </div>
+                                       
                                     </div>
                                     <div id="doublescroll" class="col-md-12">
                                         <p>
